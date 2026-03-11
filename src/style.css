@@ -1,0 +1,45 @@
+nav{
+    background-color: rgb(110, 168, 168);
+    width:auto ;
+    height: 5%;
+    display: flex;
+    gap: 50px;
+}
+.nav2{
+    display: flex;
+    text-align: right;
+
+}
+
+.Assessment{
+    justify-content: center;
+    display: inline;
+}
+
+.purple{
+    background-color: purple;
+    width: 250px;
+    height: 100px;
+}
+
+.card1{
+    border: 2px solid black;
+    width: 220px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px 10px 10px;
+}
+
+.blue{
+ background-color: rgb(0, 200, 255);
+    width: 250px;
+    height: 100px;
+}
+
+.card2{
+    border: 2px solid black;
+    width: 220px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px 10px 10px;
+}
