@@ -4,7 +4,15 @@ nav{
     height: 5%;
     display: flex;
     gap: 50px;
+    justify-content: space-between; /*added*/
 }
+
+nav div{ /*added*/
+    display: flex; /*added*/
+    justify-content: space-between; /*added*/
+    gap: 50px; /*added*/
+}
+
 .nav2{
     display: flex;
     text-align: right;
@@ -143,3 +151,14 @@ nav{
     cursor: pointer;
     margin: auto;
 }
+
+.raw{margin-left: auto;
+width: 50px;
+height: 50px;
+border: 2px solid white;
+border-radius:50% ;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
