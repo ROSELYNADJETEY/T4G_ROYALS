@@ -161,4 +161,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+.card:hover{
+    transform: translate(-5px);
+    box-shadow:0 6px 16px rgb(110, 168, 168);
+}
+.another:hover{
+       transform: translate(-5px);
+    box-shadow:0 6px 16px rgb(110, 168, 168);
 
+}
