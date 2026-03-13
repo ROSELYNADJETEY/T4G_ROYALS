@@ -3,7 +3,7 @@ nav{
     width:auto ;
     height: 5%;
     display: flex;
-    gap: 50px;
+    gap: 15px;
     justify-content: space-between; /*added*/
 }
 
@@ -152,21 +152,30 @@ nav div{ /*added*/
     margin: auto;
 }
 
-.raw{margin-left: auto;
-width: 50px;
-height: 50px;
-border: 2px solid white;
-border-radius:50% ;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.card:hover{
-    transform: translate(-5px);
-    box-shadow:0 6px 16px rgb(110, 168, 168);
-}
+
+
 .another:hover{
        transform: translate(-5px);
     box-shadow:0 6px 16px rgb(110, 168, 168);
 
+}
+
+.raw{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.assesment{
+    margin-left: 100px;
+    color: white;
+}
+
+.ques{
+    margin-left: auto;
 }
